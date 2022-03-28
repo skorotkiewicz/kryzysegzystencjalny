@@ -27,6 +27,8 @@ export default resolver.pipe(() => {
     "Proszę, obudź się, wszyscy bardzo za tobą tęsknimy",
     "Twoja pamięć stanie się abstrakcyjnym pojęciem - jeśli w ogóle przetrwa",
     "W pamięci pozostaną tylko plamy, gdy będziesz stać u śmierci bramy",
+    "Z wiekiem widzimy inaczej, inaczej niż przed tym wiekiem", 
+    "Umrzeć nie znaczy zniknąć, pozostajemy by męczyć innych",
   ]
 
   // shuffle array
