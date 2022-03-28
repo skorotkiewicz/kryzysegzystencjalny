@@ -26,7 +26,7 @@ export default resolver.pipe(() => {
     "Na wystarczająco długiej linii czasu wskaźnik przeżywalności wszystkiego spada do zera",
     "Proszę, obudź się, wszyscy bardzo za tobą tęsknimy",
     "Twoja pamięć stanie się abstrakcyjnym pojęciem - jeśli w ogóle przetrwa",
-    " W pamięci pozostaną tylko plamy, gdy będziesz stać u śmierci bramy",
+    "W pamięci pozostaną tylko plamy, gdy będziesz stać u śmierci bramy",
   ]
 
   // shuffle array
