@@ -86,6 +86,12 @@ main {
   border-radius: 1rem;
   cursor: pointer;
 
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
   &:active {
     border-top: 2px solid #b8b8b8;
     border-right: 2px solid #b8b8b8;
