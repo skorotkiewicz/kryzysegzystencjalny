@@ -15,9 +15,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  //   background-color: #181818;
-  //   justify-content: center;
-  //   align-items: center;
 }
 
 header {
@@ -38,7 +35,6 @@ main {
   flex-direction: column;
   align-items: center;
   position: relative;
-  //   background-color: #f5f5f5;
 
   .hey {
     margin: 40px;
@@ -105,11 +101,8 @@ footer {
 
   margin-top: 10px;
   height: 30px;
-
   background-color: #272727;
   color: #ccc;
-
-  position: relative;
   padding: 10px;
 
   div {
@@ -126,20 +119,3 @@ footer {
     }
   }
 }
-
-// .grid {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   flex-wrap: wrap;
-
-//   max-width: 800px;
-//   margin-top: 3rem;
-// }
-
-// @media (max-width: 600px) {
-//   .grid {
-//     width: 100%;
-//     flex-direction: column;
-//   }
-// }
