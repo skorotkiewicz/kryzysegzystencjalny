@@ -15,6 +15,18 @@ const Footer = () => {
           #kryzysegzystencjalny
         </a>
       </span>
+
+      <span>&#183;</span>
+
+      <span>
+        <a
+          href="https://github.com/skorotkiewicz/kryzysegzystencjalny"
+          target="_blank"
+          rel="noreferrer"
+        >
+          opensource
+        </a>
+      </span>
     </div>
   )
 }
