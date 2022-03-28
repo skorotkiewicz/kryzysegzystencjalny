@@ -1,7 +1,7 @@
 # #kryzysegzystencjalny
 
 polska strona dla #kryzysegzystencjalny  
-chcesz coś zmienić, poprawić dodać?
+chcesz coś zmienić, poprawić czy dodać?
 
 _zaforkuj, zmień i wrzuć PR_
 
