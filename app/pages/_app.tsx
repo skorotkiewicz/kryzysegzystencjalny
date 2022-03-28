@@ -5,6 +5,7 @@ import {
   ErrorFallbackProps,
   useQueryErrorResetBoundary,
 } from "blitz"
+import "./../_sass/main.scss"
 
 export default function App({ Component, pageProps }: AppProps) {
   const getLayout = Component.getLayout || ((page) => page)

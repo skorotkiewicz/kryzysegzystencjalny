@@ -9,8 +9,20 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pl">
         <DocumentHead />
+
+        <head>
+          <meta charSet="utf-8" />
+          <link rel="icon" href="/favicon.svg" />
+          <meta name="viewport" content="width=device-width,initial-scale=1" />
+          <meta
+            name="description"
+            content="#kryzysegzystencjalny - pierwsza strona która mówi prawdę"
+          />
+          <title>#kryzysegzystencjalny</title>
+        </head>
+
         <body>
           <Main />
           <BlitzScript />
