@@ -47,6 +47,13 @@ main {
     margin: 10px;
     border-bottom: 3px dotted #ccc;
 
+    label {
+      font-size: 12px;
+      margin-top: 10px;
+      color: #424242;
+      cursor: pointer;
+    }
+
     input {
       border: 1px solid #ccc;
       border-radius: 1rem;
