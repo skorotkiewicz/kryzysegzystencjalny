@@ -1,4 +1,4 @@
-import { Document, Html, DocumentHead, Main, BlitzScript /*DocumentContext*/ } from "blitz"
+import { Document, Html, Head, Main, BlitzScript /*DocumentContext*/ } from "blitz"
 
 class MyDocument extends Document {
   // Only uncomment if you need to customize this behaviour
@@ -10,9 +10,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="pl">
-        <DocumentHead />
-
-        <head>
+        <Head>
           <meta charSet="utf-8" />
           <link rel="icon" href="/favicon.svg" />
           <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -21,7 +19,7 @@ class MyDocument extends Document {
             content="#kryzysegzystencjalny - pierwsza strona która mówi prawdę"
           />
           <title>#kryzysegzystencjalny</title>
-        </head>
+        </Head>
 
         <body>
           <Main />
