@@ -1,4 +1,4 @@
-import { Document, Html, Head, Main, BlitzScript /*DocumentContext*/ } from "blitz"
+import { Document, Html, Head, Main, BlitzScript, DocumentHead /*DocumentContext*/ } from "blitz"
 
 class MyDocument extends Document {
   // Only uncomment if you need to customize this behaviour
@@ -10,6 +10,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="pl">
+        <DocumentHead />
         <Head>
           <meta charSet="utf-8" />
           <link rel="icon" href="/favicon.svg" />
