@@ -9,5 +9,8 @@ const config: BlitzConfig = {
     return config
   },
   */
+  images: {
+    domains: ["raw.githubusercontent.com"],
+  },
 }
 module.exports = config

@@ -1,5 +1,5 @@
 import { SetStateAction, useEffect, useState } from "react"
-import { useQuery, useMutation, Link, invoke } from "blitz"
+import { useQuery, useMutation, Link, Image, invoke } from "blitz"
 import getQuote from "app/quotes/queries/getQuote"
 import calculateSaturday from "app/quotes/mutations/calculateSaturday"
 import calculateRemember from "app/quotes/mutations/calculateRemember"
@@ -36,6 +36,17 @@ const Main = () => {
       </div>
 
       <div className="hey">
+        <div className="ukraine">
+          <a href="https://vshymanskyy.github.io/StandWithUkraine">
+            <Image
+              src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct.svg"
+              alt="Stand With Ukraine"
+              height="100"
+              width="600"
+            />
+          </a>
+        </div>
+
         <div
           className="quote"
           onClick={() => {
